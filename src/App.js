@@ -40,9 +40,9 @@ const App = () => {
           <input className='input' type='text' placeholder='Enter Last Name' name='lname'
             onChange={InputEvent} value={fullName.lname} />
           <input className='input' type='email' placeholder='Enter Email' name='email'
-            onChange={InputEvent} value={fullName.email} />
+            onChange={InputEvent} value={fullName.email} autoComplete='off' />
           <input className='input' type='number' placeholder='Enter Mobile No.' name='mobile'
-            onChange={InputEvent} value={fullName.mobile} />
+            onChange={InputEvent} value={fullName.mobile} autoComplete='off' />
           <button className='button' type='submit'>SUBMIT</button>
         </div>
       </form>
