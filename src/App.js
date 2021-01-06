@@ -25,6 +25,7 @@ const App = () => {
 
   const OnSubmit = (event) => {
     event.preventDefault();
+    alert("Form Submitted")
   }
 
   return (
